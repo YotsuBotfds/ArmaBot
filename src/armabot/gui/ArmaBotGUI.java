@@ -1,6 +1,5 @@
 package armabot.gui;
 
-import armabot.ArmaBot;
 import armabot.Client;
 import armabot.loader.MainLoader;
 
@@ -10,8 +9,8 @@ public class ArmaBotGUI extends JFrame {
 
     private static ArmaBotGUI gui;
 
-    public final static ArmaBotGUI get(){
-        if(gui == null)
+    public final static ArmaBotGUI get() {
+        if (gui == null)
             gui = new ArmaBotGUI();
         return gui;
     }
@@ -19,11 +18,10 @@ public class ArmaBotGUI extends JFrame {
     private Client client;
     private MainLoader loader;
 
-    private ArmaBotGUI(){
+    private ArmaBotGUI() {
         super("ArmaBot");
-        loader = new MainLoader(ArmaBot.getClientFile());
-        client = MainLoader.loadClient(gui);
-System.out.println("Just a change for git");
+        //loader = new MainLoader(ArmaBot.getClientFile());
+        //client = MainLoader.loadClient(gui);    :SSSSSh
     }
 
 }

@@ -14,16 +14,15 @@ public class ArmaBot {
         debug = JOptionPane.showConfirmDialog(ArmaBotGUI.get(), "Would you like to show debugging messages?") == JOptionPane.YES_OPTION;
     }
 
-    public boolean isDebugging(){
+    public boolean isDebugging() {
         return debug;
     }
 
-    public void setDebugging(boolean debugging){
+    public void setDebugging(boolean debugging) {
         debug = debugging;
     }
 
-    public JarFile getClientFile(){
-        if(Utilities)
+    public static JarFile getClientFile() {
         return null;
     }
 
