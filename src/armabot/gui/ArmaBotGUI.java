@@ -23,6 +23,7 @@ public class ArmaBotGUI extends JFrame {
         super("ArmaBot");
         loader = new MainLoader(ArmaBot.getClientFile());
         client = MainLoader.loadClient(gui);
+System.out.println("Just a change for git");
     }
 
 }
